@@ -1,0 +1,248 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Oferta</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            .offer_nr {
+                background-color: rgb(145, 145, 139);
+                width: 100%;
+                height: 30px;
+                margin-top: 25px;
+            }
+
+            .offer_nr_txt {
+                color: #fff;
+                text-transform: uppercase;
+                font-size: 17px;
+                line-height: 30px;
+                text-align: center;
+            }
+            
+            .offer_det1_container {
+                min-height: 40px;
+                font-size: 15px; 
+                margin: 10px 20px;                   
+            }
+
+            .offer_name {
+                float: left;
+                width: 50%;
+                text-transform: capitalize;
+                margin-top: 24px;
+            }
+
+            .offer_dates {
+                float: left;
+                width: 50%;            
+            }
+            
+            .offer_dates_txt {
+                margin-bottom: 5px;
+                text-align: right;
+            }
+
+            .label {
+                width: 125px;
+                display: inline-block;
+                text-align: left;
+            }
+            
+            .border {
+                background-color: rgb(145, 145, 139);
+                width: 100%;
+                height: 30px;
+            }
+
+            .offer_det2_container {
+                min-height: 100px;
+                font-size: 15px; 
+                margin: 20px;      
+            }
+            
+            .offer_contractor {
+                float: left;
+                width: 50%; 
+            }
+            
+            .offer_buyer {
+                float: left;
+                width: 50%; 
+            }
+
+            .offer_buyer p {
+                margin-bottom: 40px;
+            }
+
+            .table_det {
+                max-width: 1300px;
+                border-collapse: collapse;
+            }
+
+            th, td {
+                border: 1px solid rgb(162, 163, 153);
+            }
+            
+            th {
+                background-color: rgb(219, 219, 179);
+                font-weight: normal;
+                text-align: right;
+                padding: 3px;
+                font-size: 14px;
+            }
+
+            td {
+                text-align: right;
+                padding: 15px 7px;
+                font-size: 13px;
+            }
+
+            .title {
+                min-width: 200px;
+            }
+    
+            .align_center {
+                text-align: center;
+            }
+
+            .align_left {
+                text-align: left;
+            }
+
+            .table_summary {
+                width: 35%;
+                margin-top: 40px;
+                border-collapse: collapse;
+                float: right;
+            }
+
+            .align_width {
+                min-width: 100px;
+            }
+
+            .table_summary th, .table_summary td {
+                padding: 4px;
+            }
+
+            .nowrap {
+                white-space: nowrap;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <img src="http://127.0.0.1:5500/logo.png" alt="company logo" />
+            <div class="inv_header">
+
+                <div class="offer_nr">
+                    <p class="offer_nr_txt">numer oferty: 111</p>
+                </div>
+
+                <div class="offer_det1_container">
+                    <div class="offer_name">
+                        <p>piotr pawel</p>
+                    </div>
+                    <div class="offer_dates">
+                        <p class="offer_dates_txt">
+                            <span class="label">Utworzono:</span> 
+                            <span class="date">30 sty 2020</span>
+                        </p>
+                        <p class="offer_dates_txt">
+                            <span class="label">Oferta ważna do:</span>
+                            <span class="date">31 sty 2020</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="border"></div>
+
+                <div class="offer_det2_container">
+                    <div class="offer_contractor">
+                        <p>Wykonawca</p>
+                    </div>
+                    <div class="offer_buyer">
+                        <p>Odbiorca</p>
+                        <p>aasdsd</p>
+                    </div>
+                </div>
+
+                <table class="table_det">
+
+                    <tr>
+                        <th class="align_center">Lp.</th>
+                        <th class="align_left">Produkty</th>
+                        <th>Ilość</th>
+                        <th>Cena netto</th>
+                        <th>Cena brutto</th>
+                        <th>Suma netto</th>
+                        <th>Suma brutto</th>
+                    </tr>
+
+                    <tr>
+                        <td class="align_center">1</td>
+                        <td class="align_left title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta tenetur labore reiciendis enim? Ipsa repellendus nemo eius totam vitae voluptates aspernatur quos eaque dolores facilis, eum, quae maiores et ab?
+                        rovident unde alias vero?
+                        Adipisci corporis repellendus quod eos dicta tempore suscipit veritatis, consectetur molestias, aliquid nobis! Dolorem architecto qui quod laboriosam recusandae. Fugit vitae iusto ea numquam perferendis molestiae debitis sunt tempore consectetur!</td>
+                        <td>100000</td>
+                        <td class="nowrap">166666666,26 zł</td>
+                        <td class="nowrap">1434444444,00 zł</td>
+                        <td class="nowrap">116555555,26 zł</td>
+                        <td class="nowrap">1444444443,00 zł</td>
+                    </tr>
+
+                    <tr>
+                        <td class="align_center">1</td>
+                        <td class="align_left title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta tenetur labore
+                            reiciendis enim? Ipsa repellendus nemo eius totam vitae voluptates aspernatur quos eaque dolores facilis, eum,
+                            quae maiores et ab?
+                            rovident unde alias vero?
+                            Adipisci corporis repellendus quod eos dicta tempore suscipit veritatis, consectetur molestias, aliquid nobis!
+                            Dolorem architecto qui quod laboriosam recusandae. Fugit vitae iusto ea numquam perferendis molestiae debitis
+                            sunt tempore consectetur!</td>
+                        <td>100000</td>
+                        <td class="nowrap">166666666,26 zł</td>
+                        <td class="nowrap">1434444444,00 zł</td>
+                        <td class="nowrap">116555555,26 zł</td>
+                        <td class="nowrap">1444444443,00 zł</td>
+                    </tr>
+
+                    <tr>
+                        <td class="align_center">1</td>
+                        <td class="align_left title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta tenetur labore
+                            reiciendis enim? Ipsa repellendus nemo eius totam vitae voluptates aspernatur quos eaque dolores facilis, eum,
+                            quae maiores et ab?
+                            rovident unde alias vero?
+                            Adipisci corporis repellendus quod eos dicta tempore suscipit veritatis, consectetur molestias, aliquid nobis!
+                            Dolorem architecto qui quod laboriosam recusandae. Fugit vitae iusto ea numquam perferendis molestiae debitis
+                            sunt tempore consectetur!</td>
+                        <td>100000</td>
+                        <td class="nowrap">166666666,26 zł</td>
+                        <td class="nowrap">1434444444,00 zł</td>
+                        <td class="nowrap">116555555,26 zł</td>
+                        <td class="nowrap">1444444443,00 zł</td>
+                    </tr>
+
+                </table>
+
+                <table class="table_summary">
+                    <tr>
+                        <th class="align_center">Suma netto</th>
+                        <td class="align_width">125,98 zł</td>
+                    </tr>
+                    <tr>
+                        <th class="align_center">Suma brutto</td>
+                        <td class="align_width">154,96 zł</td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </body>
+</html>
